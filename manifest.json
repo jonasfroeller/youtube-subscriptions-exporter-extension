@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Subscriptions Exporter",
+  "version": "1.0",
+  "description": "Export your YouTube subscriptions",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["*://*.youtube.com/*"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.youtube.com/feed/subscriptions",
+        "*://*.youtube.com/feed/channels"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
