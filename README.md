@@ -2,7 +2,11 @@
 
 > A [Chrome extension](https://chromewebstore.google.com), that lets you export your subscriptions immediately, so that you don't have to go to [takeout.google.com](https://takeout.google.com) and schedule an export.
 
-## Formats supported
+## Features
+
+![youtube.subscriptions.exporter.extension.preview](./youtube.subscriptions.exporter.extension.preview.png)
+
+### Formats supported
 
 * TSV (the format YouTube lets you export in)
 * CSV
